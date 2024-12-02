@@ -117,8 +117,8 @@ const arrivalData = [
 
 export default function AllProducts() {
   return (
-    <div className=" w-full mt-4 flex justify-center items-center flex-wrap max-sm:justify-self-center  max-lg:justify-center max-lg:items-center max-lg:justify-self-center max-md:justify-self-center max-sm:justify-self-center max-sm:w-full    ">
-      <div className=" container">
+    <div className="  w-full mt-4 flex justify-center items-center flex-wrap max-sm:justify-self-center  max-lg:justify-center max-lg:items-center max-lg:justify-self-center max-md:justify-self-center max-sm:justify-self-center max-sm:w-full    ">
+      <div className=" max-w-[1399px]  mx-autor">
         <div className="flex justify-between py-4">
           <h1 className=" text-3xl font-normal ">All Products</h1>
           <div className="flex pr-6k">

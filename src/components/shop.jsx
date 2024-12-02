@@ -39,13 +39,13 @@ const shopData = [
 export default function Shoping(){
     return(
         
-            <div className=" w-full mt-4 flex justify-center items-center flex-wrap max-lg:justify-center max-lg:items-center max-lg:justify-self-center max-md:justify-self-center max-sm:justify-self-center max-sm:w-full  ">
-           <div className="container">
+            <div className=" w-full mt-4 flex justify-center items-center flex-wrap max-lg:justify-center   max-lg:justify-self-center max-md:justify-self-center max-sm:justify-self-center max-sm:w-full  ">
+           <div className="max-w-[1309px]  mx-auto">
              <h2 className="text-3xl font-normal	">Shop</h2>
              
              
 
-              <div className="  flex justify-start gap-2 flex items-center flex-wrap  ">
+              <div className="  flex justify-start gap-2  items-center flex-wrap  ">
               {
                 shopData.map((data,index)=>(
                   <div className="w-44 mt-4 max-sm:w-28 max-sm:px-2 " key={index}>
